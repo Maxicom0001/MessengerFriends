@@ -1,6 +1,4 @@
-# install.packages("shiny")
-# install.packages("tidyverse")
-# install.packages("bslib")
+
 
 library(shiny)
 library(tidyverse)
