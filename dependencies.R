@@ -5,4 +5,3 @@ install.packages(c(
   "plotly", "ggplot2", "reactable",
   "tidytext", "stopwords"
 ))
-install.packages(c("dplyr", "tidyr", "lubridate"))
