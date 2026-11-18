@@ -4,7 +4,7 @@
 void R_init_projekt_spd1_extendr(void *dll);
 void register_extendr_panic_hook(void);
 
-void R_init_projekt_spd1(void *dll) {
+void R_init_ProjektSPD1(void *dll) {
     register_extendr_panic_hook();
     R_init_projekt_spd1_extendr(dll);
 }

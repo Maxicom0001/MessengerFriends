@@ -7,10 +7,16 @@ fn hello_world() -> &'static str {
     "Hello world!"
 }
 
+#[extendr]
+fn add(a: i32, b: i32) -> i32 {
+    return a + b
+}
+
 // Macro to generate exports.
 // This ensures exported functions are registered with R.
 // See corresponding C code in `entrypoint.c`.
 extendr_module! {
     mod projekt_spd1;
     fn hello_world;
+    fn add;
 }
